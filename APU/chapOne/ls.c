@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 		printf("%s\n", dirp->d_name);
 
 	closedir(dp);
-	exit(0);
+	exit(0);  //0是正常结束，1~255是出错
 
 
 
