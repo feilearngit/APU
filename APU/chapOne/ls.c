@@ -7,6 +7,7 @@ int main(int argc, char *argv[])
 	struct dirent *dirp;
 	int 		tmp;
 	tmp = argc;
+	printf("ls test from process ID %d\n", getpid());
 	printf("%d\n", argc);
 	while(tmp)
 		printf("%s\n", argv[--tmp]);
